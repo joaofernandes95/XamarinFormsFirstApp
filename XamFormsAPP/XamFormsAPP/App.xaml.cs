@@ -1,8 +1,6 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 using XamFormsAPP.Services;
-using XamFormsAPP.Views;
+using XamFormsAPP.Views.StackLayoutExercises;
 
 namespace XamFormsAPP
 {
@@ -14,7 +12,7 @@ namespace XamFormsAPP
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new TestPage();
+            MainPage = new ExerciseTwoPage();
         }
 
         protected override void OnStart()

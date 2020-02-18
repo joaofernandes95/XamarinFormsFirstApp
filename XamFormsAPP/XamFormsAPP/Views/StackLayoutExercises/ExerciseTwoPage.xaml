@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamFormsAPP.Views.StackLayoutExercises.ExerciseTwoPage">
+    <ContentPage.Content>
+        <StackLayout >
+            <Label Padding="5" 
+                Text="nyc_photographer"
+                   TextColor="Black"
+                   FontSize="17"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+
+            <Image Source="https://i.picsum.photos/id/244/1920/1080.jpg"></Image>
+
+            <StackLayout Orientation="Horizontal"  >
+                <Button Text="Like" > </Button>
+                <Button Text="Comment"></Button>
+                <Button Text="Share"></Button>
+            </StackLayout>
+
+            <BoxView HeightRequest="1"
+                     Color="#f0f0f0 ">
+
+            </BoxView>
+
+            <Label Padding="5"
+                   Text="700 likes"
+                   TextColor="Black"
+                   FontSize="16"
+                   FontAttributes="Bold"></Label>
+
+            <Label Padding="5"
+                   Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas et odio ut bibendum. Mauris fermentum tincidunt velit, eu lobortis urna sagittis nec. "
+                   FontSize="16"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

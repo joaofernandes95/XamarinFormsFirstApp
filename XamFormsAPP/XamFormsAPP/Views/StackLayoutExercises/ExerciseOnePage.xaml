@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="XamFormsAPP.Views.ExerciseOnePage">
+             x:Class="XamFormsAPP.Views.StackLayoutExercises.ExerciseOnePage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#127ac7" >
             <StackLayout VerticalOptions="CenterAndExpand">
