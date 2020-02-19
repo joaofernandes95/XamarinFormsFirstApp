@@ -1,7 +1,6 @@
 ﻿using Xamarin.Forms;
 using XamFormsAPP.Services;
-using XamFormsAPP.Views.StackLayoutExercises;
-
+using XamFormsAPP.Views.GridLayoutExercises;
 namespace XamFormsAPP
 {
     public partial class App : Application
@@ -12,7 +11,7 @@ namespace XamFormsAPP
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new ExerciseTwoPage();
+            MainPage = new ExerciseOnePage();
         }
 
         protected override void OnStart()
